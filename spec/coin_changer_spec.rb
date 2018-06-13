@@ -57,7 +57,3 @@ RSpec.describe Coinchanger, "dispense" do
 		expect(coin_changer.dispense(146)).to eq [quarter, quarter, quarter, quarter, quarter, dime, dime, penny]  
 	end
 end
-# dime = 10
-# nickel = 5
-# penny = 1
-# [dime, nickel, penny, penny]
